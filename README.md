@@ -46,5 +46,6 @@ Above preprocessing steps have already be done, we focus on
 
 ## About citation
 [1] C. R. Jack et al., “The Alzheimer’s disease neuroimaging initiative (ADNI): MRI methods,” J. Magn. Reson. Imag., vol. 27, no. 4, pp. 685–691, 2008.
+
 [2] X. Gao, et al., "Task-Induced Pyramid and Attention GAN for Multimodal Brain Image Imputation and Classification in Alzheimer's Disease," IEEE Journal of Biomedical and Health Informatics, vol. 26, no. 1, pp. 36-43, Jan. 2022.
 
