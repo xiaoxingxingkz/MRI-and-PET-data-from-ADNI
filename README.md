@@ -23,7 +23,8 @@ For the subjects with format of "MPR; ; N3" and "MPR-R; GradWarp; N3", we don no
 
 ## Preprocessing of Downloaded MRI
 Above preprocessing steps have already be done, we focus on
-(a) BET algorithm is used for brain extraction. 
-(b) The MRI images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
+
+- (a) BET algorithm is used for brain extraction. 
+- (b) The MRI images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
 (c) Remove the voxels of zero values in the periphery of brain.
 (d) Downsample the images to the size of 76×94×76.
