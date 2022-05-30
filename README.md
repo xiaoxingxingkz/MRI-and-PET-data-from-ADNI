@@ -23,8 +23,8 @@ For the subjects with format of "MPR; ; N3" and "MPR-R; GradWarp; N3", we don no
 
 ## Preprocessing of Downloaded MRI
 Above preprocessing steps have already be done, we focus on
-- BET algorithm is used for brain extraction. 
-- The MRI images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
+- BET algorithm (in FSL 6.0.3) is used for brain extraction. 
+- FLIRT linear registration algorithm (in FSL 6.0.3)  is used to aligne images to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm).
 - Remove the voxels of zero values in the periphery of brain.
 - Downsample the images to the size of 76×94×76.
 
@@ -39,8 +39,8 @@ Preprocessing steps of PET images are relatively uniform, that is ideal for the 
 
 ## Preprocessing of Downloaded PET
 Above preprocessing steps have already be done, we focus on
-- BET(FSL) algorithm is used for brain extraction. 
-- FLIRT(FSL) linear registration algorithm is used to aligne images to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm).
+- BET algorithm (in FSL 6.0.3) is used for brain extraction. 
+- FLIRT linear registration algorithm (in FSL 6.0.3)  is used to aligne images to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm).
 - Remove the voxels of zero values in the periphery of brain.
 - Downsample the images to the size of 76×94×76.
 
