@@ -23,8 +23,23 @@ For the subjects with format of "MPR; ; N3" and "MPR-R; GradWarp; N3", we don no
 
 ## Preprocessing of Downloaded MRI
 Above preprocessing steps have already be done, we focus on
+- BET algorithm is used for brain extraction. 
+- The MRI images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
+- Remove the voxels of zero values in the periphery of brain.
+- Downsample the images to the size of 76×94×76.
 
-- (a) BET algorithm is used for brain extraction. 
-- (b) The MRI images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
-(c) Remove the voxels of zero values in the periphery of brain.
-(d) Downsample the images to the size of 76×94×76.
+## Description of Downloaded PET
+```python
+if exist("Coreg, Avg, Std Img and Vox Siz, Uniform Resolution"):
+  select
+elif exist("AV45 Coreg, Avg, Std Img and Vox Siz, Uniform Resolution"):
+  select
+```
+Preprocessing steps of PET images are relatively uniform, that is ideal for the inputs of models.
+
+## Preprocessing of Downloaded PET
+Above preprocessing steps have already be done, we focus on
+- BET algorithm is used for brain extraction. 
+- The PET images are aligned to Montreal Neurological Institute T1 standard template space (MNI152_T1_1mm) with the FLIRT linear registration algorithm.
+- Remove the voxels of zero values in the periphery of brain.
+- Downsample the images to the size of 76×94×76.
