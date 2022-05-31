@@ -1,7 +1,7 @@
 # MRI-and-PET-data-from-ADNI
 Pre-processed MRI and PET images from ADNI-1/ADNI-2(https://adni.loni.usc.edu/)
 
-### GitHib is so hard to upload large file, we upload scripts instead.
+### GitHib is so hard to upload large file, we upload scripts instead. FSL processing is fast enough.
 
 ## Advanced Search (beta)
 <p align="center">
